@@ -17,6 +17,12 @@ h1{
     padding-top: 15px;
     color: purple;
 }
+main{
+    padding: 20px;
+}
+section{
+    padding: 20px;
+}
 .menu{
     float: right;
 }
@@ -47,15 +53,17 @@ h1{
     float: left;
     padding-bottom: 300px;
 }
+
 img{
     display: inline-block;
     width: 30%;
     padding: 10px;
 }
 h2{
-    padding-top: 25px;
+    padding: 5px;
+    border-left: 5px solid purple;
     color: purple;
-    padding-left: 15px;
+    padding-left: 10px;
 
 }
 
@@ -65,13 +73,16 @@ p{
 footer{
     width: 100%;
     background-color: skyblue;
+    color: purple;
+    font-weight: bold;
     margin: 0;
     padding: 8px;
     clear: both;
 }
 footer p{
     font-weight: bold;
-    color: slateblue;
+    color: purple;
     float: right;
     padding: 1px;
+    padding-right: 10px;
 }
